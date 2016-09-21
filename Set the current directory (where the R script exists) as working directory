@@ -1,0 +1,2 @@
+## Set the current directory (where the R script exists) as working directory
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
